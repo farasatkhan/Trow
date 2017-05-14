@@ -53,7 +53,7 @@ function follow(id, sender){
 
 	function call(err, data, response){
 		if(!err){
-			// wait(1000 * sec * min);
+			wait(1000 * sec * min);
 			console.log("Sent Direct Message to "+ sender);
 		}else{
 			console.log(err);
