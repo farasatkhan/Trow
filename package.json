@@ -1,0 +1,23 @@
+{
+  "name": "npm_file",
+  "version": "1.0.0",
+  "description": "Trow bring emotion to life",
+  "main": "option.js",
+  "scripts": {
+    "start": "node option.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "twitter",
+    "bot",
+    "retweet",
+    "emotion",
+    "message",
+    "follower"
+  ],
+  "author": "Farasat Khan",
+  "license": "ISC",
+  "dependencies": {
+    "twit": "^2.2.5"
+  }
+}
